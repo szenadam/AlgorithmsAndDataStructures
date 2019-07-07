@@ -1,4 +1,6 @@
-﻿namespace Sorting.Sorting
+﻿using Sorting.Utils;
+
+namespace Sorting
 {
     class Program
     {
@@ -11,7 +13,7 @@
             foo.next = bar;
             bar.next = baz;
 
-            Utils.Util.WriteS1L(foo);
+            Util.WriteS1L(foo);
 
             return 0;
         }

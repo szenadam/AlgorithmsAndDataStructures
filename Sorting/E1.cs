@@ -1,4 +1,4 @@
-﻿namespace Sorting.Sorting
+﻿namespace Sorting
 {
     public class E1
     {
@@ -8,7 +8,7 @@
         public E1(int key)
         {
             this.key = key;
-            this.next = null;
+            next = null;
         }
     }
 }

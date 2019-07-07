@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sorting.Sorting
+namespace Sorting
 {
     public static class Quicksort
     {

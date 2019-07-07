@@ -1,5 +1,4 @@
-﻿using Sorting.Sorting;
-using System;
+﻿using System;
 
 namespace Sorting.Utils
 {
