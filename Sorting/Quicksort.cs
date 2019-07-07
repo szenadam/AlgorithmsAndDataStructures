@@ -9,7 +9,7 @@ namespace Sorting
             Qs(a, 1, a.Length - 1);
         }
 
-        public static void Qs(int[] a, int p, int r)
+        private static void Qs(int[] a, int p, int r)
         {
             if (p < r)
             {
@@ -39,7 +39,7 @@ namespace Sorting
                 {
                     if (a[j] < x)
                     {
-                        Swap(ref a[i], ref a[j]);
+                        Swap(a[i], a[j]);
                         i = i + 1;
                     }
                     j = j + 1;
@@ -55,7 +55,7 @@ namespace Sorting
             return i;
         }
 
-        private static void Swap(ref int a, ref int b)
+        private static void Swap(int a, int b)
         {
             int t = a;
             a = b;
