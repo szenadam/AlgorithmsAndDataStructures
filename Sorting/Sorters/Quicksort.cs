@@ -39,7 +39,7 @@ namespace Sorting.Sorters
                 {
                     if (a[j] < x)
                     {
-                        Swap(a[i], a[j]);
+                        Swap(ref a[i], ref a[j]);
                         i = i + 1;
                     }
                     j = j + 1;
@@ -55,7 +55,7 @@ namespace Sorting.Sorters
             return i;
         }
 
-        private static void Swap(int a, int b)
+        private static void Swap(ref int a, ref int b)
         {
             int t = a;
             a = b;
