@@ -11,12 +11,12 @@ namespace Sorting.Test
             var bar = new E1(2);
             var baz = new E1(3);
 
-            foo.next = bar;
-            bar.next = baz;
+            foo.Next = bar;
+            bar.Next = baz;
 
-            Assert.NotNull(foo.next);
-            Assert.NotNull(bar.next);
-            Assert.Null(baz.next);
+            Assert.NotNull(foo.Next);
+            Assert.NotNull(bar.Next);
+            Assert.Null(baz.Next);
         }
     }
 }

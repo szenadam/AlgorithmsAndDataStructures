@@ -14,12 +14,12 @@ namespace Sorting.Test
         {
             var head = Util.BuildS1LFromArray(_array);
             
-            Assert.Equal(1, head.key);
-            Assert.Equal(2, head.next.key);
-            Assert.Equal(3, head.next.next.key);
-            Assert.Equal(4, head.next.next.next.key);
-            Assert.Equal(5, head.next.next.next.next.key);
-            Assert.Null(head.next.next.next.next.next);
+            Assert.Equal(1, head.Key);
+            Assert.Equal(2, head.Next.Key);
+            Assert.Equal(3, head.Next.Next.Key);
+            Assert.Equal(4, head.Next.Next.Next.Key);
+            Assert.Equal(5, head.Next.Next.Next.Next.Key);
+            Assert.Null(head.Next.Next.Next.Next.Next);
         }
 
         [Fact]

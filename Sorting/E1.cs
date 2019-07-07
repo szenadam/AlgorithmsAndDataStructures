@@ -2,13 +2,13 @@
 {
     public class E1
     {
-        public int key;
-        public E1 next;
+        public readonly int Key;
+        public E1 Next;
 
         public E1(int key)
         {
-            this.key = key;
-            next = null;
+            Key = key;
+            Next = null;
         }
     }
 }

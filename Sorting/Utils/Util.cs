@@ -7,12 +7,12 @@ namespace Sorting.Utils
         public static void WriteS1L(E1 head)
         {
             var h = head;
-            while (h.next != null)
+            while (h.Next != null)
             {
-                Console.Write("{0}->", h.key);
-                h = h.next;
+                Console.Write("{0}->", h.Key);
+                h = h.Next;
             }
-            Console.WriteLine("{0}\n", h.key);
+            Console.WriteLine("{0}\n", h.Key);
         }
 
         public static E1 BuildS1LFromArray(int[] array)
@@ -27,8 +27,8 @@ namespace Sorting.Utils
             for (int i = 1; i < array.Length; i++)
             {
                 var foo = new E1(array[i]);
-                temp.next = foo;
-                temp = temp.next;
+                temp.Next = foo;
+                temp = temp.Next;
             }
 
             return head;
