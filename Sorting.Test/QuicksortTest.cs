@@ -1,3 +1,4 @@
+using Sorting.Sorters;
 using Xunit;
 
 namespace Sorting.Test

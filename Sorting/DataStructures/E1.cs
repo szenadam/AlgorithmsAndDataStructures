@@ -1,4 +1,4 @@
-﻿namespace Sorting
+﻿namespace Sorting.DataStructures
 {
     public class E1
     {

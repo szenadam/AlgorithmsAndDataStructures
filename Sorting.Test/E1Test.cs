@@ -1,3 +1,4 @@
+using Sorting.DataStructures;
 using Xunit;
 
 namespace Sorting.Test

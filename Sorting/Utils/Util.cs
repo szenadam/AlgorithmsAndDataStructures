@@ -1,4 +1,5 @@
 ﻿using System;
+using Sorting.DataStructures;
 
 namespace Sorting.Utils
 {
