@@ -6,8 +6,6 @@ namespace Sorting
     {
         static int Main()
         {
-            
-
             return 0;
         }
     }
